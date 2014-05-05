@@ -65,7 +65,7 @@ namespace RA.HashPeak
 		[JsonProperty(PropertyName = "Total MH")]
 		public double TotalMh { get; set; }
 		[JsonProperty(PropertyName = "Diff1 Work")]
-		public int Diff1Work { get; set; }
+		public double Diff1Work { get; set; }
 		[JsonProperty(PropertyName = "Difficulty Accepted")]
 		public double DifficultyAccepted { get; set; }
 		[JsonProperty(PropertyName = "Difficulty Rejected")]
